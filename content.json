@@ -1,0 +1,58 @@
+{
+  "services": [
+    [
+      "seo",
+      "Search Engine Optimization",
+      "Be found. For the right reasons.",
+      "Search visibility is only useful when it brings the right buyers. We connect technical foundations, useful content and commercial intent.",
+      "technical SEO|on-page optimization|content strategy|link earning|local SEO|SEO for SaaS",
+      "Search Console \u00b7 Screaming Frog \u00b7 GA4",
+      "Qualified organic leads \u00b7 non-brand clicks \u00b7 indexed priority pages"
+    ],
+    [
+      "paid-media",
+      "Paid Media",
+      "Make every click accountable.",
+      "Bring acquisition spend closer to revenue. We build campaigns around intent, reliable measurement and a clear testing plan.",
+      "Google Search and Performance Max|Display and YouTube|Microsoft Ads|LinkedIn Ads|conversion tracking|landing-page CRO",
+      "Google Ads \u00b7 Microsoft Ads \u00b7 LinkedIn Campaign Manager \u00b7 GTM",
+      "Qualified pipeline \u00b7 cost per qualified lead \u00b7 conversion rate"
+    ],
+    [
+      "web-development",
+      "Web Development",
+      "Build your next advantage.",
+      "Your website should make the product easier to understand and the next step easier to take. We build for performance, accessibility and maintainability.",
+      "custom websites|headless CMS|e-commerce|performance engineering|accessibility engineering|integration development",
+      "React \u00b7 Next.js \u00b7 TypeScript \u00b7 headless CMS",
+      "Core Web Vitals \u00b7 task completion \u00b7 qualified conversion rate"
+    ],
+    [
+      "mobile-app-development",
+      "Mobile App Development",
+      "From first release to daily habit.",
+      "Turn a focused product idea into a reliable mobile experience. Validate the core journey, ship deliberately and improve with evidence.",
+      "iOS and Android|React Native or Flutter|MVP scoping|API integrations|release preparation|ongoing optimization",
+      "React Native \u00b7 Flutter \u00b7 platform tooling",
+      "Activation \u00b7 retention \u00b7 crash-free sessions \u00b7 task success"
+    ],
+    [
+      "content-brand",
+      "Content and Brand",
+      "Make the complex compelling.",
+      "Give technical products a clear story. We translate product depth into positioning, content and creative that help buyers make decisions.",
+      "content marketing|copywriting|brand identity|creative direction|editorial planning|sales-enablement content",
+      "Editorial workflows \u00b7 design systems \u00b7 CMS",
+      "Engaged target accounts \u00b7 assisted conversions \u00b7 content-qualified leads"
+    ],
+    [
+      "analytics-growth",
+      "Analytics and Growth",
+      "Know what moves the business.",
+      "Replace disconnected reports with a shared view of performance. Build measurement that supports decisions across marketing and product.",
+      "GA4 implementation|tag management|dashboards|attribution analysis|marketing automation|experiment design",
+      "GA4 \u00b7 GTM \u00b7 Looker Studio \u00b7 CRM integrations",
+      "Tracking coverage \u00b7 funnel conversion \u00b7 experiment impact"
+    ]
+  ]
+}
