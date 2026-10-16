@@ -35,3 +35,9 @@ Static pages need directory index serving. Optional server/leads.py needs produc
 - Python app creation form offers Python 3.11.16 and 3.10.21, WSGI startup/callable configuration, application URL/path, private app root, log path and environment variables. No app was created; application execution and SMTP delivery remain untested. Avoid the default Python 2.7 choice.
 - FTP, SSH Access and Git Version Control tools are present, but credential-based connections and unattended deployment have not been established.
 - No domain or DNS edits performed by the agent. Recheck the authoritative zone before any future change.
+
+## Custom domain and SSL update
+
+Registrar A @ now points to 107.180.113.184 (TTL 600), following explicit approval. Other six registrar records preserved. cPanel maps montshiremedia.ca to the existing public_html root. AutoSSL certificate covers montshiremedia.ca and www.montshiremedia.ca; expires January 14, 2027, with AutoSSL renewal indicated. HTTP and www redirects are configured in dist/.htaccess and verified against the hosting server. Local DNS caching may temporarily retain the parked addresses.
+
+Enquiry sender mailbox setup is prepared but unsubmitted. Owner must enter a new password directly into cPanel; no password or SMTP credential belongs in these documents. SPF/DKIM/MX or mail-host records have not been added. Website DNS approval did not include additional email DNS changes; inspect and propose the exact mail records before modifying them.
