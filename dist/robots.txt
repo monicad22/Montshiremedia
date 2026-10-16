@@ -1,4 +1,3 @@
 User-agent: *
 Disallow: /
-# Private prelaunch preview. Remove restriction after content approval.
 Sitemap: https://montshire-media.rubybox33.chatgpt.site/sitemap.xml

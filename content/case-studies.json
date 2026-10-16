@@ -1,0 +1,95 @@
+[
+  {
+    "slug": "search-to-signup",
+    "industry": "SaaS",
+    "service": "SEO",
+    "title": "Search to signup",
+    "description": "A framework for connecting search intent to product activation.",
+    "placeholder": true,
+    "sections": [
+      {
+        "heading": "Challenge",
+        "text": "[Client context and business constraint: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Strategy",
+        "text": "[Research and strategic rationale: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Execution",
+        "text": "[Scope, timeline and delivered work: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Results",
+        "text": "[Verified metrics, baseline, period and attribution: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Tech stack",
+        "text": "[Actual platforms and integrations: to be supplied and approved by the client]"
+      }
+    ],
+    "quote": "[Testimonial: to be supplied, attributed and approved]"
+  },
+  {
+    "slug": "product-to-platform",
+    "industry": "B2B Technology",
+    "service": "Web Development",
+    "title": "Product to platform",
+    "description": "A framework for a clearer, faster product website.",
+    "placeholder": true,
+    "sections": [
+      {
+        "heading": "Challenge",
+        "text": "[Client context and business constraint: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Strategy",
+        "text": "[Research and strategic rationale: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Execution",
+        "text": "[Scope, timeline and delivered work: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Results",
+        "text": "[Verified metrics, baseline, period and attribution: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Tech stack",
+        "text": "[Actual platforms and integrations: to be supplied and approved by the client]"
+      }
+    ],
+    "quote": "[Testimonial: to be supplied, attributed and approved]"
+  },
+  {
+    "slug": "click-to-customer",
+    "industry": "E-commerce",
+    "service": "Paid Media",
+    "title": "Click to customer",
+    "description": "A framework for more accountable acquisition.",
+    "placeholder": true,
+    "sections": [
+      {
+        "heading": "Challenge",
+        "text": "[Client context and business constraint: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Strategy",
+        "text": "[Research and strategic rationale: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Execution",
+        "text": "[Scope, timeline and delivered work: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Results",
+        "text": "[Verified metrics, baseline, period and attribution: to be supplied and approved by the client]"
+      },
+      {
+        "heading": "Tech stack",
+        "text": "[Actual platforms and integrations: to be supplied and approved by the client]"
+      }
+    ],
+    "quote": "[Testimonial: to be supplied, attributed and approved]"
+  }
+]

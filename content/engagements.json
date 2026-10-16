@@ -1,0 +1,46 @@
+[
+  {
+    "title": "Audit",
+    "fit": "When you need to know what to fix first.",
+    "text": "A focused review of the evidence, the experience and the constraints. We define the questions, inspect agreed systems and deliver a prioritized set of recommendations.",
+    "outputs": [
+      "Documented baseline",
+      "Findings with evidence",
+      "Prioritized next steps"
+    ],
+    "owner_fields": "[Owner to confirm: audit scope, turnaround, fee and presentation format.]"
+  },
+  {
+    "title": "Project",
+    "fit": "When there is a defined outcome to deliver.",
+    "text": "A bounded engagement for a website, product release, campaign setup or measurement implementation. Scope, dependencies and acceptance criteria are agreed before delivery.",
+    "outputs": [
+      "Delivery plan and milestones",
+      "Working reviews and QA evidence",
+      "Handover documentation"
+    ],
+    "owner_fields": "[Owner to confirm: milestone/payment structure, change control and support period.]"
+  },
+  {
+    "title": "Retainer",
+    "fit": "When improvement needs a consistent rhythm.",
+    "text": "A rolling backlog of priorities across acquisition, content, analytics or optimization. Capacity and review cadence are agreed so the work stays connected to business needs.",
+    "outputs": [
+      "Prioritized monthly backlog",
+      "Reporting and decisions",
+      "Regular planning review"
+    ],
+    "owner_fields": "[Owner to confirm: capacity, term, reporting cadence and cancellation terms.]"
+  },
+  {
+    "title": "Embedded team",
+    "fit": "When your team needs additional delivery capacity.",
+    "text": "Work alongside internal product, marketing or engineering teams with clear ownership. Agree decision rights, access and delivery responsibilities before work begins.",
+    "outputs": [
+      "Shared working agreements",
+      "Integrated planning and reviews",
+      "Documented knowledge transfer"
+    ],
+    "owner_fields": "[Owner to confirm: roles, allocation, availability and escalation contacts.]"
+  }
+]

@@ -1,17 +1,26 @@
-# Items to replace or complete before public launch
+# Owner decisions and before-launch checklist
 
-1. Confirm founder spelling: Monica Dhaya, as supplied in the source brief.
-2. Founder photo, approved biography and verified credentials (About).
-3. Business email, phone, legal entity, business/postal address, privacy contact and effective dates.
-4. Booking calendar URL/embed and scheduling availability (Contact).
-5. Lead submission endpoint, email notification recipient/provider, spam protection, privacy retention rules and error handling.
-6. Newsletter sender details, platform, optional consent records and unsubscribe workflow (footer and Contact).
-7. Three case study templates: real client permission, challenge, strategy, execution, timeline, tech stack, results with baseline/time period, approved quote and attribution. Replace illustrative titles if they do not match actual work.
-8. Verified client logos, outcome metrics and testimonials; these are not fabricated or displayed as proof in the preview.
-9. Three insight outlines: research, original examples, named approved author, reviewed full article, publication date and Article schema.
-10. Privacy, Terms and Cookie drafts: match actual business practices and obtain review.
-11. Production domain, canonical origin, redirects, social sharing image and metadata.
-12. GA4/GTM identifiers, real consent integration and verified conversions.
-13. Confirm tool-stack choices, delivery promises, sprint/reporting cadence and contractual support SLAs for each engagement.
-14. Careers status and recruiting contact if hiring is enabled.
-15. Remove preview notices and search-index restrictions only after these decisions are resolved. Do not remove disclosures while retaining placeholder claims.
+- [ ] Confirm founder spelling: the supplied brief says **Monica Dhaya**. Supply approved bio, credentials and licensed portrait in content/team.json.
+- [ ] Supply legal entity, business email, phone, postal/business address, privacy contact, security contact, accessibility contact and policy effective dates.
+- [ ] Confirm service scope, technology examples, claims and delivery commitments in services/process/engagements collections.
+- [ ] Approve audit/project/retainer/embedded-team terms: fees, milestones, capacity, availability, change control, payment and cancellation terms, handover, support and any negotiated SLAs. No values have been invented.
+- [ ] Approve the free review offer: eligibility, scope, capacity, turnaround, format and owner responsible for delivering it. Confirm the public-pages-only boundary. The request form remains preview-only.
+- [ ] Supply real case studies with client permission, challenge, strategy, execution, stack, results with baseline/date/attribution and approved quote. Keep placeholder status until approved; remove unused templates.
+- [ ] Supply approved client logos/metrics/testimonials if desired. No fabricated proof or animated metrics have been added.
+- [ ] Finish the three article outlines with research, examples, author approval and publication dates. Set verification fields only when true.
+- [ ] Provision a live lead backend: Python WSGI with a same-origin proxy or a Sites Worker port. Static Sites alone does not run the supplied Python handler.
+- [ ] Configure persistent rate-limit database, random secret, trusted client-IP/proxy configuration and request timeouts. Decide retention and idle cleanup. Multi-instance servers need shared limits.
+- [ ] Supply a verified SMTP account/sender and notification address. Test real inbox receipt, invalid input, honeypot, rate limit, provider outage/rejection and ambiguous timeouts. Only then enable live mode and amend privacy/security statements to reflect the deployed behaviour.
+- [ ] Approve privacy notice, data flow, email provider, processing locations, retention and access/deletion procedure. Server application logging avoids bodies, but proxy/provider logs need review.
+- [ ] Supply marketing sender name, postal address, contact email and unsubscribe URL; implement consent records and withdrawal handling. The checkbox is disabled and no newsletter enrollment is active. Obtain CASL review.
+- [ ] Supply an approved HTTPS booking embed URL and review its data handling and accessibility.
+- [ ] Choose GTM OR GA4 ID. Review tags, deny advertising storage, avoid PII and query/referrer capture, disable enhanced form capture, configure conversion events and test consent grant/withdrawal. Decide first-party cookie cleanup and policy disclosures.
+- [ ] Confirm origin/domain/DNS, redirects and social sharing asset. Update content.json, rebuild, validate canonical/hreflang/sitemap. Shared English pages currently use the same en-CA/en-US URL.
+- [ ] Supply verified business address/telephone/email before enabling LocalBusiness schema. Article schema remains off for unverified drafts.
+- [ ] Professionally review Privacy, Terms and Cookie drafts against actual business practices. No compliance certification is claimed.
+- [ ] Verify HTTPS and security headers at the production edge: CSP, HSTS, nosniff, Referrer-Policy and Permissions-Policy. Validate necessary analytics/booking sources in CSP. These headers are not guaranteed by static HTML.
+- [ ] Run production Lighthouse and real-device checks; assess LCP, INP and CLS using field data when available. Target 95+ and good CWV; no measured scores are claimed.
+- [ ] Complete keyboard, screen-reader, zoom/reflow, contrast, touch-target and third-party-calendar accessibility testing. WCAG 2.2 AA remains a target, not certified conformance.
+- [ ] Confirm hiring status/recruiting contact or keep Careers as a no-open-roles notice.
+- [ ] Resolve the Sites source-upload approval block and publish to the existing owner-private Site. Keep its existing ID and audience.
+- [ ] Owner confirms placeholders resolved before setting preview false/removing noindex; explicitly choose public audience separately if desired. Then verify Search Console and submit sitemap.

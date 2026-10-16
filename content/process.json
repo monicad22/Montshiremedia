@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Discover",
+    "headline": "Understand the business, the buyer and the systems.",
+    "description": "Stakeholder conversations, analytics review, technical audit and a documented baseline."
+  },
+  {
+    "title": "Strategy",
+    "headline": "Choose the work that matters most.",
+    "description": "Prioritized roadmap, scope, success measures, responsibilities and dependencies."
+  },
+  {
+    "title": "Build",
+    "headline": "Deliver in visible increments.",
+    "description": "Agreed sprint cadence, working demos, acceptance criteria and issue tracking."
+  },
+  {
+    "title": "Launch",
+    "headline": "Release with a clear go/no-go decision.",
+    "description": "Functional, accessibility, security and performance checks; deployment and rollback plan."
+  },
+  {
+    "title": "Optimize",
+    "headline": "Turn evidence into the next decision.",
+    "description": "Reporting on an agreed cadence, experiment backlog and prioritization review."
+  }
+]

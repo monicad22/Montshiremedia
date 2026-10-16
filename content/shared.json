@@ -1,0 +1,101 @@
+{
+  "closing_cta": "<section class=\"cta\"><div class=\"eyebrow\">YOUR NEXT CHAPTER</div><h2>Let’s make<br>what’s next work.</h2><a class=\"button light\" href=\"/contact/\">Book a Strategy Call <span>↗</span></a><p>Vancouver roots. North American ambition.</p></section>",
+  "nav_html": "<a href=\"/work/\">Work</a><a href=\"/about/\">About</a><a href=\"/insights/\">Insights</a><a href=\"/engagements/\">Engage</a>",
+  "footer_html": "<footer><div class=\"footer-top\"><a class=\"brand\" href=\"/\">Montshire<span>Media</span><b>✳</b></a><p>Marketing and engineering<br>under one roof.</p></div><div class=\"footer-links\"><a href=\"/services/\">Services</a><a href=\"/work/\">Work</a><a href=\"/about/\">About</a><a href=\"/process/\">Process</a><a href=\"/industries/\">Industries</a><a href=\"/insights/\">Insights</a><a href=\"/careers/\">Careers</a><a href=\"/engagements/\">Engagements</a><a href=\"/seo-site-review/\">Free site review</a><a href=\"/contact/\">Contact</a></div><div class=\"newsletter\"><h3>A sharper perspective. Occasionally.</h3><p>Newsletter signup is coming soon. [Sender details and email platform: to be supplied]</p></div><div class=\"footer-bottom\"><span>© 2026 Montshire Media</span><a href=\"/privacy/\">Privacy</a><a href=\"/terms/\">Terms</a><a href=\"/cookies/\">Cookies</a><a href=\"/security/\">Security</a><a href=\"/accessibility/\">Accessibility</a><button class=\"plain\" id=\"cookie-settings\">Cookie settings</button><span>VANCOUVER → NORTH AMERICA</span></div></footer>",
+  "art_html": "<div class=\"art \" role=\"img\" aria-label=\"Original geometric composition: two intersecting arcs representing marketing and engineering\"><div class=\"orb a\"></div><div class=\"orb b\"></div><div class=\"art-grid\"></div><span class=\"art-label\">TWO DISCIPLINES.<br>ONE DIRECTION.</span><span class=\"coordinate\">MM / 49.2827° N</span></div>",
+  "labels": {
+    "case_placeholder": "CASE STUDY PLACEHOLDER — NOT CLIENT WORK",
+    "case_notice": "[Case study placeholder: replace with real client work]. No client, outcome or quote is implied.",
+    "article_draft": "DRAFT OUTLINE",
+    "article_notice": "Editorial draft — not a finished article. Add research, original examples and approval before publishing.",
+    "read_article": "Read the article ↗",
+    "related": "Keep exploring.",
+    "service_industries": "Built for your business context.",
+    "industry_services": "Connected capabilities",
+    "service_problem_heading": "The problem behind the brief.",
+    "service_problem": "Disconnected execution makes it hard to see what is working. We start by finding the constraint, then build a focused plan around it.",
+    "approach_heading": "Our approach",
+    "approach": "Audit the current state. Agree the opportunity and the tradeoffs. Prioritize delivery in measurable increments, then use the results to choose the next step.",
+    "deliverables": "What we deliver.",
+    "tools": "Tools, chosen for the job",
+    "stack_note": "Final stack depends on your systems, requirements and budget.",
+    "measurement": "Measurement",
+    "measurement_note": "Baselines and targets are agreed during discovery.",
+    "faq": "Good questions.",
+    "all_services": "All services",
+    "all_industries": "All industries",
+    "all_categories": "All categories",
+    "template_count": "case study templates",
+    "no_results": "No results match these filters.",
+    "contact_unavailable": "Contact setup pending. This preview prepares a downloadable enquiry. Nothing is sent or stored by Montshire Media.",
+    "contact_available": "Send your project details. We will use them to respond to this enquiry.",
+    "booking_pending": "[Calendar booking URL: to be supplied]",
+    "booking_load": "Load booking calendar",
+    "booking_notice": "Loading the calendar connects to the scheduling provider, which may process technical data.",
+    "booking_open": "Open booking calendar ↗",
+    "cookie_title": "Your privacy. Your choice.",
+    "cookie_description": "Essential hosting and local preferences keep the site usable. Optional analytics stay off unless you allow them. Advertising storage stays denied.",
+    "cookie_essential": "Essential only",
+    "cookie_allow": "Allow analytics",
+    "submit": "Send enquiry ↗",
+    "prepare": "Prepare enquiry ↗",
+    "sending": "Sending…",
+    "success": "Your enquiry was accepted by the email service for delivery. Inbox delivery is not guaranteed.",
+    "failure": "Your enquiry could not be confirmed. Nothing has been marked as delivered. Please try again later.",
+    "prepared": "Your enquiry is ready to download. Nothing was sent or stored by Montshire Media.",
+    "download": "Download your enquiry",
+    "marketing_disabled": "Marketing signup is unavailable until sender details and unsubscribe handling are configured.",
+    "marketing": "I agree to receive marketing emails from {sender}. I can withdraw consent at any time.",
+    "privacy_form": "Your details are used to respond to this enquiry. Read our draft privacy policy.",
+    "preview": "PRE-LAUNCH PREVIEW · CONTENT & INTEGRATIONS IN REVIEW"
+  },
+  "form": {
+    "fields": [
+      {
+        "name": "name",
+        "label": "Name",
+        "type": "text",
+        "autocomplete": "name",
+        "max": 100,
+        "required": true
+      },
+      {
+        "name": "email",
+        "label": "Work email",
+        "type": "email",
+        "autocomplete": "email",
+        "max": 254,
+        "required": true
+      },
+      {
+        "name": "company",
+        "label": "Company",
+        "type": "text",
+        "autocomplete": "organization",
+        "max": 150,
+        "required": true
+      },
+      {
+        "name": "website",
+        "label": "Website",
+        "type": "url",
+        "autocomplete": "url",
+        "max": 300,
+        "required": false
+      }
+    ],
+    "budget_label": "Budget range (CAD)",
+    "budgets": [
+      "Select a range",
+      "Under $5,000",
+      "$5,000–$15,000",
+      "$15,000–$50,000",
+      "$50,000+",
+      "Let’s define the scope"
+    ],
+    "service_label": "Primary service",
+    "service_default": "Not sure yet",
+    "message_label": "What are you working toward?"
+  },
+  "review_cta": "<section class=\"section review-band\"><div><div class=\"eyebrow\">FREE SEO & SITE HEALTH REVIEW</div><h2>A fresh pair of eyes.<br>A more useful next step.</h2><p>See what could be getting between your website and your next customer.</p></div><a class=\"button\" href=\"/seo-site-review/\">Explore the free review ↗</a></section>"
+}

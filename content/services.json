@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "seo",
+    "name": "Search Engine Optimization",
+    "headline": "Be found. For the right reasons.",
+    "description": "Search visibility is only useful when it brings the right buyers. We connect technical foundations, useful content and commercial intent.",
+    "deliverables": [
+      "technical SEO",
+      "on-page optimization",
+      "content strategy",
+      "link earning",
+      "local SEO",
+      "SEO for SaaS"
+    ],
+    "stack": "Search Console · Screaming Frog · GA4",
+    "kpis": "Qualified organic leads · non-brand clicks · indexed priority pages",
+    "faq": [
+      {
+        "question": "Where do we start?",
+        "answer": "With a discovery conversation, access review and a prioritized scope. Recommendations follow the evidence, not a preset package."
+      },
+      {
+        "question": "How is success measured?",
+        "answer": "We agree a baseline and reporting cadence around qualified organic leads · non-brand clicks · indexed priority pages. Targets are set after discovery; outcomes are never guaranteed."
+      },
+      {
+        "question": "Can you work with our team?",
+        "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ]
+  },
+  {
+    "slug": "paid-media",
+    "name": "Paid Media",
+    "headline": "Make every click accountable.",
+    "description": "Bring acquisition spend closer to revenue. We build campaigns around intent, reliable measurement and a clear testing plan.",
+    "deliverables": [
+      "Google Search and Performance Max",
+      "Display and YouTube",
+      "Microsoft Ads",
+      "LinkedIn Ads",
+      "conversion tracking",
+      "landing-page CRO"
+    ],
+    "stack": "Google Ads · Microsoft Ads · LinkedIn Campaign Manager · GTM",
+    "kpis": "Qualified pipeline · cost per qualified lead · conversion rate",
+    "faq": [
+      {
+        "question": "Where do we start?",
+        "answer": "With a discovery conversation, access review and a prioritized scope. Recommendations follow the evidence, not a preset package."
+      },
+      {
+        "question": "How is success measured?",
+        "answer": "We agree a baseline and reporting cadence around qualified pipeline · cost per qualified lead · conversion rate. Targets are set after discovery; outcomes are never guaranteed."
+      },
+      {
+        "question": "Can you work with our team?",
+        "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ]
+  },
+  {
+    "slug": "web-development",
+    "name": "Web Development",
+    "headline": "Build your next advantage.",
+    "description": "Your website should make the product easier to understand and the next step easier to take. We build for performance, accessibility and maintainability.",
+    "deliverables": [
+      "custom websites",
+      "headless CMS",
+      "e-commerce",
+      "performance engineering",
+      "accessibility engineering",
+      "integration development"
+    ],
+    "stack": "React · Next.js · TypeScript · headless CMS",
+    "kpis": "Core Web Vitals · task completion · qualified conversion rate",
+    "faq": [
+      {
+        "question": "Where do we start?",
+        "answer": "With a discovery conversation, access review and a prioritized scope. Recommendations follow the evidence, not a preset package."
+      },
+      {
+        "question": "How is success measured?",
+        "answer": "We agree a baseline and reporting cadence around core web vitals · task completion · qualified conversion rate. Targets are set after discovery; outcomes are never guaranteed."
+      },
+      {
+        "question": "Can you work with our team?",
+        "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ]
+  },
+  {
+    "slug": "mobile-app-development",
+    "name": "Mobile App Development",
+    "headline": "From first release to daily habit.",
+    "description": "Turn a focused product idea into a reliable mobile experience. Validate the core journey, ship deliberately and improve with evidence.",
+    "deliverables": [
+      "iOS and Android",
+      "React Native or Flutter",
+      "MVP scoping",
+      "API integrations",
+      "release preparation",
+      "ongoing optimization"
+    ],
+    "stack": "React Native · Flutter · platform tooling",
+    "kpis": "Activation · retention · crash-free sessions · task success",
+    "faq": [
+      {
+        "question": "Where do we start?",
+        "answer": "With a discovery conversation, access review and a prioritized scope. Recommendations follow the evidence, not a preset package."
+      },
+      {
+        "question": "How is success measured?",
+        "answer": "We agree a baseline and reporting cadence around activation · retention · crash-free sessions · task success. Targets are set after discovery; outcomes are never guaranteed."
+      },
+      {
+        "question": "Can you work with our team?",
+        "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ]
+  },
+  {
+    "slug": "content-brand",
+    "name": "Content and Brand",
+    "headline": "Make the complex compelling.",
+    "description": "Give technical products a clear story. We translate product depth into positioning, content and creative that help buyers make decisions.",
+    "deliverables": [
+      "content marketing",
+      "copywriting",
+      "brand identity",
+      "creative direction",
+      "editorial planning",
+      "sales-enablement content"
+    ],
+    "stack": "Editorial workflows · design systems · CMS",
+    "kpis": "Engaged target accounts · assisted conversions · content-qualified leads",
+    "faq": [
+      {
+        "question": "Where do we start?",
+        "answer": "With a discovery conversation, access review and a prioritized scope. Recommendations follow the evidence, not a preset package."
+      },
+      {
+        "question": "How is success measured?",
+        "answer": "We agree a baseline and reporting cadence around engaged target accounts · assisted conversions · content-qualified leads. Targets are set after discovery; outcomes are never guaranteed."
+      },
+      {
+        "question": "Can you work with our team?",
+        "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ]
+  },
+  {
+    "slug": "analytics-growth",
+    "name": "Analytics and Growth",
+    "headline": "Know what moves the business.",
+    "description": "Replace disconnected reports with a shared view of performance. Build measurement that supports decisions across marketing and product.",
+    "deliverables": [
+      "GA4 implementation",
+      "tag management",
+      "dashboards",
+      "attribution analysis",
+      "marketing automation",
+      "experiment design"
+    ],
+    "stack": "GA4 · GTM · Looker Studio · CRM integrations",
+    "kpis": "Tracking coverage · funnel conversion · experiment impact",
+    "faq": [
+      {
+        "question": "Where do we start?",
+        "answer": "With a discovery conversation, access review and a prioritized scope. Recommendations follow the evidence, not a preset package."
+      },
+      {
+        "question": "How is success measured?",
+        "answer": "We agree a baseline and reporting cadence around tracking coverage · funnel conversion · experiment impact. Targets are set after discovery; outcomes are never guaranteed."
+      },
+      {
+        "question": "Can you work with our team?",
+        "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ]
+  }
+]

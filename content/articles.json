@@ -1,0 +1,77 @@
+[
+  {
+    "slug": "seo-before-scale",
+    "category": "SEO",
+    "title": "Before you scale content, fix the foundations.",
+    "description": "Map commercial intent, check indexability and make measurement useful.",
+    "status": "draft",
+    "author": "Montshire Media editorial team",
+    "reading_time": "2-minute outline",
+    "verified": false,
+    "date_published": null,
+    "sections": [
+      {
+        "heading": "Audit the pages buyers need",
+        "text": "Review crawling, indexation, canonical signals and internal links before increasing publishing volume."
+      },
+      {
+        "heading": "Connect intent to a useful next step",
+        "text": "Group searches by the decision a buyer is making. Give each priority page a clear purpose."
+      },
+      {
+        "heading": "Measure business contribution",
+        "text": "Track qualified enquiries alongside organic visibility. Annotate changes and compare like-for-like periods."
+      }
+    ]
+  },
+  {
+    "slug": "google-ads-saas",
+    "category": "Paid Media",
+    "title": "A better brief for your next Google Ads campaign.",
+    "description": "Start with the customer, the economics and the conversion you can trust.",
+    "status": "draft",
+    "author": "Montshire Media editorial team",
+    "reading_time": "2-minute outline",
+    "verified": false,
+    "date_published": null,
+    "sections": [
+      {
+        "heading": "Define a qualified conversion",
+        "text": "Agree with sales on the lead criteria that matter before choosing campaign targets."
+      },
+      {
+        "heading": "Match message to intent",
+        "text": "Separate exploratory searches from high-intent evaluation. Align the ad, landing page and offer."
+      },
+      {
+        "heading": "Build a learning budget",
+        "text": "Set a test hypothesis, a review window and a decision rule before increasing investment."
+      }
+    ]
+  },
+  {
+    "slug": "performance-is-product",
+    "category": "Engineering",
+    "title": "Web performance is a product decision.",
+    "description": "Treat speed as part of the buying experience, from the first request onward.",
+    "status": "draft",
+    "author": "Montshire Media editorial team",
+    "reading_time": "2-minute outline",
+    "verified": false,
+    "date_published": null,
+    "sections": [
+      {
+        "heading": "Start with the critical journey",
+        "text": "Identify the landing pages and interactions that determine whether a visitor can take the next step."
+      },
+      {
+        "heading": "Set a performance budget",
+        "text": "Control image weight, third-party scripts and font delivery. Test on a representative mobile device."
+      },
+      {
+        "heading": "Measure real experience",
+        "text": "Use field data when available. Review LCP, INP and CLS alongside accessibility and conversion behaviour."
+      }
+    ]
+  }
+]

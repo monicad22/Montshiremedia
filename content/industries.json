@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "saas",
+    "name": "SaaS",
+    "description": "Connect discovery to activation. Align search, acquisition and the product story around the buyers most likely to find value.",
+    "services": [
+      "seo",
+      "paid-media",
+      "web-development"
+    ]
+  },
+  {
+    "slug": "fintech",
+    "name": "FinTech",
+    "description": "Make complex products easier to evaluate. Plan clear messaging and reliable experiences, with compliance requirements defined by your team.",
+    "services": [
+      "content-brand",
+      "web-development",
+      "analytics-growth"
+    ]
+  },
+  {
+    "slug": "healthtech",
+    "name": "HealthTech",
+    "description": "Explain the product with care. Prioritize accessible journeys and establish privacy and security requirements before implementation.",
+    "services": [
+      "content-brand",
+      "web-development",
+      "mobile-app-development"
+    ]
+  },
+  {
+    "slug": "e-commerce",
+    "name": "E-commerce",
+    "description": "Reduce friction from discovery to checkout. Connect campaign intent, storefront performance and useful measurement.",
+    "services": [
+      "paid-media",
+      "web-development",
+      "analytics-growth"
+    ]
+  },
+  {
+    "slug": "b2b-technology",
+    "name": "B2B Technology",
+    "description": "Help buying committees understand the value. Build technical credibility into the content and the experience.",
+    "services": [
+      "seo",
+      "content-brand",
+      "web-development"
+    ]
+  }
+]

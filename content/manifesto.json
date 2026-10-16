@@ -1,0 +1,23 @@
+{
+  "eyebrow": "WHAT WE BELIEVE",
+  "title": "Growth is a system.<br>Build it like one.",
+  "intro": "A strong campaign cannot rescue a broken journey. A beautiful product cannot explain itself. The work gets better when the whole system gets attention.",
+  "beliefs": [
+    {
+      "title": "Make the promise and the product agree.",
+      "text": "The ad, the landing page and the experience should tell the same story. Every handoff is a chance to lose trust—or earn it."
+    },
+    {
+      "title": "Measure decisions, not theatre.",
+      "text": "A dashboard is useful when it changes what happens next. Start with a baseline, name the uncertainty and separate contribution from coincidence."
+    },
+    {
+      "title": "Earn complexity.",
+      "text": "Choose the smallest useful solution. Add technology, channels and process only when the problem justifies them."
+    },
+    {
+      "title": "Leave the business stronger.",
+      "text": "Document the work, explain the tradeoffs and make the systems maintainable. Progress should not depend on keeping the client in the dark."
+    }
+  ]
+}
