@@ -46,14 +46,23 @@ def allowed(client,db_path,secret,now=None):
  return True
 
 def send(data):
- required=['SMTP_HOST','SMTP_USER','SMTP_PASSWORD','SMTP_FROM','LEAD_TO']
+ security=os.getenv('SMTP_SECURITY','starttls')
+ if security not in ('ssl','starttls','local'):raise RuntimeError('Unsupported SMTP security mode')
+ required=['SMTP_HOST','SMTP_FROM','LEAD_TO']+([] if security=='local' else ['SMTP_USER','SMTP_PASSWORD'])
  if not all(os.environ.get(k) for k in required):raise RuntimeError('Delivery unavailable')
  msg=EmailMessage();msg['Subject']='Montshire Media — '+('Site review request' if data['kind']=='review' else 'Project enquiry')
  msg['From']=os.environ['SMTP_FROM'];msg['To']=os.environ['LEAD_TO'];msg['Reply-To']=data['email']
  # Plain-text email only; user content is never evaluated as HTML or used in subject headers.
  msg.set_content('\n\n'.join(f'{k.upper()}: {data[k]}' for k in ['kind','name','email','company','website','budget','service','message'])+'\n\nMARKETING CONSENT: '+str(data['marketing'])+'\nCONSENT TEXT VERSION: 2026-10-v2\nUTC RECEIVED: '+time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()))
- with smtplib.SMTP(os.environ['SMTP_HOST'],int(os.getenv('SMTP_PORT','587')),timeout=10) as smtp:
-  smtp.ehlo();smtp.starttls(context=ssl.create_default_context());smtp.ehlo();smtp.login(os.environ['SMTP_USER'],os.environ['SMTP_PASSWORD']);refused=smtp.send_message(msg)
+ port=int(os.getenv('SMTP_PORT','465' if security=='ssl' else '25' if security=='local' else '587'))
+ if security=='local' and (os.environ['SMTP_HOST'] not in ('localhost','127.0.0.1','::1') or port!=25):raise RuntimeError('Local relay must use loopback port 25')
+ context=ssl.create_default_context()
+ connection=smtplib.SMTP_SSL(os.environ['SMTP_HOST'],port,timeout=10,context=context) if security=='ssl' else smtplib.SMTP(os.environ['SMTP_HOST'],port,timeout=10)
+ with connection as smtp:
+  smtp.ehlo()
+  if security=='starttls':smtp.starttls(context=context);smtp.ehlo()
+  if security!='local':smtp.login(os.environ['SMTP_USER'],os.environ['SMTP_PASSWORD'])
+  refused=smtp.send_message(msg)
   if refused:raise RuntimeError('Recipient rejected')
 
 def application(environ,start_response):
@@ -67,7 +76,7 @@ def application(environ,start_response):
  try:size=int(environ.get('CONTENT_LENGTH','0'))
  except ValueError:return respond('400 Bad Request',{'accepted':False})
  if size<2 or size>16384:return respond('413 Payload Too Large',{'accepted':False})
- if not CONFIG['lead']['enabled'] or not os.getenv('RATE_LIMIT_SECRET') or not os.getenv('RATE_LIMIT_DB'):return respond('503 Service Unavailable',{'accepted':False})
+ if os.getenv('LEAD_DELIVERY_ENABLED',str(CONFIG['lead']['enabled']).lower())!='true' or not os.getenv('RATE_LIMIT_SECRET') or not os.getenv('RATE_LIMIT_DB'):return respond('503 Service Unavailable',{'accepted':False})
  try:
   if not allowed(environ.get('REMOTE_ADDR','unknown'),os.environ['RATE_LIMIT_DB'],os.environ['RATE_LIMIT_SECRET']):return respond('429 Too Many Requests',{'accepted':False})
   data=validate(json.loads(environ['wsgi.input'].read(size)))
