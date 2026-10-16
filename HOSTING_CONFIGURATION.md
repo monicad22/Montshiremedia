@@ -24,3 +24,14 @@ Seven records were listed with no filter applied. No MX, AAAA, SPF or DKIM recor
 ## Backend requirements
 
 Static pages need directory index serving. Optional server/leads.py needs production WSGI routing, private persistent SQLite rate-limit storage and SMTP STARTTLS. Account support remains unverified. Required server environment names are documented in server/README.md; values belong in private server configuration, never Git or browser files.
+
+## Verified after activation and preview deployment
+
+- Shared server IP: 107.180.113.184.
+- Temporary primary domain: a9x.f47.mytemp.website.
+- Verified document root: /home/nkmtbwey0o8o/public_html.
+- cPanel displayed active SSL for the temporary domain; HTTPS requests validated successfully. Custom-domain SSL has not been provisioned or verified.
+- File Manager upload/extraction verified. Archive files kept outside the public root.
+- Python app creation form offers Python 3.11.16 and 3.10.21, WSGI startup/callable configuration, application URL/path, private app root, log path and environment variables. No app was created; application execution and SMTP delivery remain untested. Avoid the default Python 2.7 choice.
+- FTP, SSH Access and Git Version Control tools are present, but credential-based connections and unattended deployment have not been established.
+- No domain or DNS edits performed by the agent. Recheck the authoritative zone before any future change.
