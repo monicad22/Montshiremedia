@@ -28,7 +28,8 @@ for f,p in pages.items():
    target=D/u.path.lstrip('/')/'index.html'
    assert target in pages,(f,href)
    if u.fragment:assert u.fragment in pages[target].ids,(f,href)
-assert len(pages)==28
+expected_count = len(json.loads((R/'content/pages.json').read_text())) + len(json.loads((R/'content/services.json').read_text())) + len(json.loads((R/'content/case-studies.json').read_text())) + len(json.loads((R/'content/articles.json').read_text()))
+assert len(pages)==expected_count, (len(pages), expected_count)
 font=D/'fonts/fraunces-display.woff2';assert font.stat().st_size<100000
-print('PASS: 28 pages, internal links/anchors/assets, unique IDs, single H1, valid JSON-LD, noindex, no template markers.')
+print(f'PASS: {len(pages)} pages, internal links/anchors/assets, unique IDs, single H1, valid JSON-LD, noindex, no template markers.')
 print('Display font bytes:',font.stat().st_size)

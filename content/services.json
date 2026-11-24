@@ -5,12 +5,14 @@
     "headline": "Be found. For the right reasons.",
     "description": "Search visibility is only useful when it brings the right buyers. We connect technical foundations, useful content and commercial intent.",
     "deliverables": [
-      "technical SEO",
-      "on-page optimization",
-      "content strategy",
-      "link earning",
-      "local SEO",
-      "SEO for SaaS"
+      "Technical SEO and SEO audits",
+      "On-page optimization and search-intent mapping",
+      "Content strategy and link earning",
+      "Local SEO and Google Business Profile optimization",
+      "SEO for SaaS and B2B buying journeys",
+      "E-commerce search optimization",
+      "AI search visibility: AEO and GEO",
+      "Structured data and answer-ready content"
     ],
     "stack": "Search Console · Screaming Frog · GA4",
     "kpis": "Qualified organic leads · non-brand clicks · indexed priority pages",
@@ -27,7 +29,10 @@
         "question": "Can you work with our team?",
         "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
       }
-    ]
+    ],
+    "group": "reach",
+    "problem": "Buyers cannot choose a business they cannot find. Indexing issues, weak local signals and content that misses the question can all limit qualified discovery.",
+    "approach": "Audit the site and search landscape, fix the foundations, then improve the pages that help buyers choose. Assess answer-engine and AI discovery alongside conventional search without promising placements."
   },
   {
     "slug": "paid-media",
@@ -36,11 +41,15 @@
     "description": "Bring acquisition spend closer to revenue. We build campaigns around intent, reliable measurement and a clear testing plan.",
     "deliverables": [
       "Google Search and Performance Max",
-      "Display and YouTube",
+      "Google Shopping and product-feed optimization",
+      "Meta Ads: Facebook and Instagram",
+      "TikTok Ads",
+      "LinkedIn Ads for B2B",
       "Microsoft Ads",
-      "LinkedIn Ads",
-      "conversion tracking",
-      "landing-page CRO"
+      "Display, YouTube and remarketing",
+      "Programmatic, connected TV and media-buying planning",
+      "Campaign conversion tracking",
+      "Landing-page conversion rate optimization"
     ],
     "stack": "Google Ads · Microsoft Ads · LinkedIn Campaign Manager · GTM",
     "kpis": "Qualified pipeline · cost per qualified lead · conversion rate",
@@ -57,7 +66,11 @@
         "question": "Can you work with our team?",
         "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
       }
-    ]
+    ],
+    "group": "reach",
+    "problem": "Spend can rise without an equivalent increase in useful enquiries. The channel, creative, landing page and conversion definition need to work together.",
+    "approach": "Review account history, audience intent and unit economics. Build a channel and creative testing plan, check conversion tracking and optimize against agreed lead or sales quality.",
+    "scope_note": "Media budgets, platform access, creative production and any specialist inventory or buying fees are scoped separately. No premium inventory access or guaranteed return is implied."
   },
   {
     "slug": "web-development",
@@ -65,12 +78,14 @@
     "headline": "Build your next advantage.",
     "description": "Your website should make the product easier to understand and the next step easier to take. We build for performance, accessibility and maintainability.",
     "deliverables": [
-      "custom websites",
-      "headless CMS",
-      "e-commerce",
-      "performance engineering",
-      "accessibility engineering",
-      "integration development"
+      "Website design and UX/UI",
+      "Custom website development",
+      "Headless CMS and editable content systems",
+      "E-commerce storefronts and checkout journeys",
+      "Performance engineering",
+      "Accessibility engineering",
+      "API and business-system integrations",
+      "Website migration and launch QA"
     ],
     "stack": "React · Next.js · TypeScript · headless CMS",
     "kpis": "Core Web Vitals · task completion · qualified conversion rate",
@@ -87,7 +102,10 @@
         "question": "Can you work with our team?",
         "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
       }
-    ]
+    ],
+    "group": "build",
+    "problem": "A difficult website loses people before they understand the offer. Content, design and engineering need to remove friction across the buying journey.",
+    "approach": "Map the key tasks, design the content and interface, then build and test the experience. Plan redirects, accessibility and handover alongside the launch."
   },
   {
     "slug": "mobile-app-development",
@@ -117,7 +135,10 @@
         "question": "Can you work with our team?",
         "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
       }
-    ]
+    ],
+    "group": "build",
+    "problem": "A feature list is not a useful product. The first release needs a clear job, a reliable core journey and a practical route to ongoing improvement.",
+    "approach": "Define the minimum useful release, prototype the critical tasks and build with platform requirements in mind. Use release checks and product feedback to guide the next iteration."
   },
   {
     "slug": "content-brand",
@@ -125,12 +146,14 @@
     "headline": "Make the complex compelling.",
     "description": "Give technical products a clear story. We translate product depth into positioning, content and creative that help buyers make decisions.",
     "deliverables": [
-      "content marketing",
-      "copywriting",
-      "brand identity",
-      "creative direction",
-      "editorial planning",
-      "sales-enablement content"
+      "Brand positioning and messaging",
+      "Logo design and visual identity",
+      "Content marketing and copywriting",
+      "Website and campaign copy",
+      "Creative direction and campaign concepts",
+      "Editorial planning",
+      "Sales-enablement content",
+      "Brand guidelines and reusable design templates"
     ],
     "stack": "Editorial workflows · design systems · CMS",
     "kpis": "Engaged target accounts · assisted conversions · content-qualified leads",
@@ -147,7 +170,10 @@
         "question": "Can you work with our team?",
         "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
       }
-    ]
+    ],
+    "group": "brand",
+    "problem": "When a story is unclear, every channel has to work harder. Buyers need to understand the offer, the difference and the next step quickly.",
+    "approach": "Start with audience questions and business context. Develop a consistent message and visual direction, then turn it into practical content and assets for the channels in scope."
   },
   {
     "slug": "analytics-growth",
@@ -155,12 +181,14 @@
     "headline": "Know what moves the business.",
     "description": "Replace disconnected reports with a shared view of performance. Build measurement that supports decisions across marketing and product.",
     "deliverables": [
-      "GA4 implementation",
-      "tag management",
-      "dashboards",
-      "attribution analysis",
-      "marketing automation",
-      "experiment design"
+      "GA4 implementation and measurement audits",
+      "Google Tag Manager setup",
+      "Looker Studio reporting dashboards",
+      "Attribution and funnel analysis",
+      "CRM implementation and data migration planning",
+      "HubSpot configuration and CRM integrations",
+      "Lead routing and sales-pipeline reporting",
+      "Experiment design and prioritization"
     ],
     "stack": "GA4 · GTM · Looker Studio · CRM integrations",
     "kpis": "Tracking coverage · funnel conversion · experiment impact",
@@ -176,6 +204,258 @@
       {
         "question": "Can you work with our team?",
         "answer": "Yes. The engagement can complement your internal marketing, product and engineering teams, with responsibilities agreed before delivery."
+      }
+    ],
+    "group": "strategy",
+    "problem": "Disconnected reports make decisions slow. Marketing and sales need a common definition of a useful lead and a clear view of what happens next.",
+    "approach": "Agree the decisions and conversion definitions first. Review tracking and CRM data, implement the measurement plan and create reporting the team can act on.",
+    "scope_note": "Email campaign production and lifecycle messaging sit in Email Marketing and Automation. This service covers the measurement, CRM and data connections behind them; software licences and access are agreed in scope."
+  },
+  {
+    "slug": "marketing-strategy",
+    "name": "Marketing Strategy and Training",
+    "group": "strategy",
+    "headline": "A clearer plan. A team ready to act.",
+    "description": "Choose where to focus before adding more activity. Connect audience research, channel priorities, budget planning and team training around the next business goal.",
+    "deliverables": [
+      "Marketing and competitor audits",
+      "Audience research and customer-journey mapping",
+      "Go-to-market and campaign planning",
+      "Channel selection and budget allocation",
+      "Quarterly marketing roadmaps",
+      "Team workshops and practical channel training"
+    ],
+    "stack": "Research briefs · channel plans · workshop playbooks",
+    "kpis": "Agreed priorities · delivery milestones · team adoption",
+    "problem": "A long list of channels is not a strategy. Teams need a clear choice about who to reach, what to say and where effort is most useful.",
+    "approach": "Review the market and current activity, agree the business goal and build a prioritized plan with owners, budgets and a useful reporting rhythm.",
+    "scope_note": "Workshop format, participants, research depth and delivery schedule are agreed before work starts.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Workshop format, participants, research depth and delivery schedule are agreed before work starts."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around agreed priorities · delivery milestones · team adoption. Targets follow discovery and the agreed scope; results are not guaranteed."
+      }
+    ]
+  },
+  {
+    "slug": "social-media",
+    "name": "Social Media Management",
+    "group": "reach",
+    "headline": "Show up with something worth following.",
+    "description": "Build a consistent organic presence with a practical content calendar, publishing rhythm and community response plan.",
+    "deliverables": [
+      "Social media audits and channel strategy",
+      "Instagram, Facebook, LinkedIn and TikTok planning",
+      "Organic content calendars and publishing",
+      "Platform-ready posts, captions and community prompts",
+      "Community management and response guidelines",
+      "Social listening and organic performance reporting"
+    ],
+    "stack": "Native publishing tools · approval calendars · social reporting",
+    "kpis": "Engaged audience · relevant conversations · organic enquiries",
+    "problem": "Posting more does not always make a brand clearer. Channels need a consistent voice, useful content and a response plan.",
+    "approach": "Audit the existing channels, agree content themes and approvals, then publish and review what earns useful audience attention.",
+    "scope_note": "Channel count, publishing volume, moderation hours and escalation rules are scoped upfront. Paid social campaigns sit within Paid Media; standalone shoots and editing projects sit within Photography, Video and Podcasts.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Channel count, publishing volume, moderation hours and escalation rules are scoped upfront. Paid social campaigns sit within Paid Media; standalone shoots and editing projects sit within Photography, Video and Podcasts."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around engaged audience · relevant conversations · organic enquiries. Targets follow discovery and the agreed scope; results are not guaranteed."
+      }
+    ]
+  },
+  {
+    "slug": "email-marketing",
+    "name": "Email Marketing and Automation",
+    "group": "reach",
+    "headline": "Keep the conversation moving.",
+    "description": "Turn permission-based email into a useful customer journey, from a welcome message to a relevant follow-up or repeat purchase.",
+    "deliverables": [
+      "Email strategy and audience segmentation",
+      "Campaign copy, design and newsletters",
+      "Welcome and lead-nurture sequences",
+      "E-commerce cart-recovery and post-purchase flows",
+      "Re-engagement and customer-retention campaigns",
+      "Automation workflow setup and QA",
+      "Subscription, unsubscribe and suppression workflows",
+      "Deliverability checks and campaign testing"
+    ],
+    "stack": "Klaviyo · Mailchimp · HubSpot · platform selected for the brief",
+    "kpis": "Qualified clicks · conversion · retention · unsubscribe and complaint trends",
+    "problem": "A growing list is only useful if the messages remain relevant. Unclear consent, fragmented journeys and generic blasts weaken the customer experience.",
+    "approach": "Map the audience and lifecycle, review list permissions and platform setup, then build and test the messages and workflows needed for the agreed journey.",
+    "scope_note": "Work starts with a review of list permissions and the chosen platform. Software fees, campaign volume and automation scope are agreed upfront. Campaign production is separate from ongoing CRM and analytics implementation.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Work starts with a review of list permissions and the chosen platform. Software fees, campaign volume and automation scope are agreed upfront. Campaign production is separate from ongoing CRM and analytics implementation."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around qualified clicks · conversion · retention · unsubscribe and complaint trends. Targets follow discovery and the agreed scope; results are not guaranteed."
+      }
+    ]
+  },
+  {
+    "slug": "photo-video-podcast",
+    "name": "Photography, Video and Podcasts",
+    "group": "brand",
+    "headline": "Make your story visible. And listenable.",
+    "description": "Plan and produce visual and audio content that gives campaigns a consistent story across websites, social platforms and sales conversations.",
+    "deliverables": [
+      "Product, team and brand photography",
+      "Brand films, interviews and customer-story videos",
+      "Reels, short-form and vertical video",
+      "Campaign and social video editing",
+      "Podcast planning, recording coordination and editing",
+      "Audio cleanup, captions and transcripts",
+      "Channel-specific cutdowns and export formats",
+      "Production briefs, shot lists and storyboards"
+    ],
+    "stack": "Production briefs · editing workflows · accessible delivery formats",
+    "kpis": "Approved assets · publishing readiness · content engagement",
+    "problem": "A strong idea can lose its meaning when every format is made in isolation. Production needs a shared brief and a clear distribution plan.",
+    "approach": "Agree the story and formats, plan the shoot or recording, then edit for each intended placement. Define rights, approvals and delivery files before production.",
+    "scope_note": "Locations, equipment, talent, production specialists, licensing and travel are confirmed in the proposal.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Locations, equipment, talent, production specialists, licensing and travel are confirmed in the proposal."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around approved assets · publishing readiness · content engagement. Targets follow discovery and the agreed scope; results are not guaranteed."
+      }
+    ]
+  },
+  {
+    "slug": "pr-influencer",
+    "name": "Public Relations and Creator Campaigns",
+    "group": "brand",
+    "headline": "Put your story in the right conversations.",
+    "description": "Connect a clear brand story with relevant journalists, creators and communities through focused outreach and coordinated campaign briefs.",
+    "deliverables": [
+      "PR strategy and story-angle development",
+      "Press releases and media-kit preparation",
+      "Relevant media research and outreach",
+      "Launch, event and media-buying coordination",
+      "Influencer and creator identification",
+      "Creator briefs, outreach and campaign coordination",
+      "Disclosure, approvals and usage-rights planning",
+      "Coverage and referral reporting"
+    ],
+    "stack": "Media briefs · creator campaign plans · coverage tracking",
+    "kpis": "Relevant coverage · referral traffic · campaign engagement",
+    "problem": "Visibility without relevance rarely builds trust. Outreach needs a story that fits the audience and clear expectations for everyone involved.",
+    "approach": "Develop the story, research suitable media or creators and coordinate outreach, approvals and follow-up. Keep paid placements distinct from earned coverage.",
+    "scope_note": "Earned media coverage is not guaranteed. Creator fees, paid placements, event costs and usage rights require an agreed scope and client approval.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Earned media coverage is not guaranteed. Creator fees, paid placements, event costs and usage rights require an agreed scope and client approval."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around relevant coverage · referral traffic · campaign engagement. Targets follow discovery and the agreed scope; results are not guaranteed."
+      }
+    ]
+  },
+  {
+    "slug": "website-care",
+    "name": "Website Hosting and Care",
+    "group": "build",
+    "headline": "Keep the website ready for business.",
+    "description": "Support the site after launch with hosting setup, routine maintenance and a clear plan for backups, monitoring and content updates.",
+    "deliverables": [
+      "Hosting and domain configuration",
+      "Website migrations and deployment setup",
+      "SSL certificate configuration and renewal checks",
+      "Scheduled backups and restore checks",
+      "CMS, plugin and dependency maintenance",
+      "Uptime and performance monitoring setup",
+      "Content updates and technical troubleshooting",
+      "Maintenance handover and support planning"
+    ],
+    "stack": "Hosting control panels · deployment tools · monitoring and backup systems",
+    "kpis": "Availability · maintenance completion · recovery checks",
+    "problem": "A launch is the beginning of a website’s working life. Missed updates, unclear ownership and untested backups can interrupt business.",
+    "approach": "Review the site and hosting environment, document ownership and access, then agree the maintenance schedule, backup process and escalation route.",
+    "scope_note": "Hosting-provider charges, maintenance windows, support hours and response targets are agreed in writing.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Hosting-provider charges, maintenance windows, support hours and response targets are agreed in writing."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around availability · maintenance completion · recovery checks. Targets follow discovery and the agreed scope; results are not guaranteed."
+      }
+    ]
+  },
+  {
+    "slug": "promotional-products",
+    "name": "Promotional Products and Merchandise",
+    "group": "brand",
+    "headline": "Give your brand something people can keep.",
+    "description": "Bring the brand into events, customer gifting and team kits with merchandise concepts, artwork and coordinated supplier briefs.",
+    "deliverables": [
+      "Branded apparel and team merchandise",
+      "Drinkware, bags and stationery concepts",
+      "Event giveaways and welcome-kit planning",
+      "Promotional product selection and sourcing coordination",
+      "Print-ready artwork and digital proofs",
+      "Packaging and branded insert design",
+      "Supplier, sample and fulfilment coordination",
+      "Quantity, budget and delivery planning"
+    ],
+    "stack": "Product briefs · artwork specifications · supplier proofs",
+    "kpis": "Approved proofs · budget alignment · delivery milestones",
+    "problem": "Merchandise should have a purpose beyond adding a logo. Product choice, quality, quantities and delivery dates need to fit the people receiving it.",
+    "approach": "Define the occasion and budget, shortlist suitable products and prepare the artwork. Coordinate supplier quotes, samples and approvals before any production commitment.",
+    "scope_note": "Product availability, minimum quantities, samples, production, shipping and any third-party supplier costs are confirmed by quote. Production begins only after client approval.",
+    "faq": [
+      {
+        "question": "What is included in the engagement?",
+        "answer": "Product availability, minimum quantities, samples, production, shipping and any third-party supplier costs are confirmed by quote. Production begins only after client approval."
+      },
+      {
+        "question": "How do we get started?",
+        "answer": "Share your business goal, current channels and constraints. We agree the deliverables, responsibilities, budget and schedule before work begins."
+      },
+      {
+        "question": "How will progress be measured?",
+        "answer": "We agree a baseline and a reporting rhythm around approved proofs · budget alignment · delivery milestones. Targets follow discovery and the agreed scope; results are not guaranteed."
       }
     ]
   }

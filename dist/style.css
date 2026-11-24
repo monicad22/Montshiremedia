@@ -7,3 +7,32 @@
 @media(max-width:1100px) and (min-width:761px){nav{gap:16px;font-size:12px}header{gap:12px}.nav-cta{padding:12px 15px}}
 @media(max-width:760px){.manifesto,.engagement-grid{grid-template-columns:1fr;gap:25px}.review-band{align-items:start;flex-direction:column}.hero h1{font-size:clamp(43px,10.8vw,72px)}.hero .eyebrow{line-height:1.8}.hero-copy{padding-top:35px}.preview-note{font-size:8px}.hero-bottom{font-size:7px}.engagement h2{font-size:44px}.hero .actions{gap:20px}.cta:after{font-size:65px}.beliefs h3{font-size:26px}.calendar-frame{height:600px}}
 @media(prefers-reduced-motion:reduce){.reveal-enter{animation:none!important}.art:hover .orb{transform:none}.button:hover{transform:none}.work-card:hover .work-art div{transform:rotate(40deg)}}
+
+/* Expanded services catalogue. Preserve the established Montshire palette. */
+.services-intro{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(240px,.7fr);gap:7%;align-items:center;padding-block:76px}
+.services-intro h1{font-size:clamp(3.2rem,5.7vw,6.2rem);max-width:1000px}
+.services-intro h1 em{color:#57745a}.dark .services-intro h1 em{color:#c7dfaa}
+.services-intro .eyebrow,.service-compass .eyebrow,.service-group .eyebrow,.service-start .eyebrow,.service-next .eyebrow,.services-contact .eyebrow{font-size:.875rem;letter-spacing:.09em}
+.services-intro .actions{margin:32px 0 0}.services-intro .button,.services-intro .text-link,.services-contact .button,.service-next .button{font-size:1rem}
+.service-compass{background:var(--green);color:#f3f2e5;padding:36px 28px;border-radius:160px 160px 0 0;min-height:360px;display:flex;flex-direction:column;justify-content:center}
+.service-compass .eyebrow{font-size:.75rem;color:#dce7bc;margin-top:30px}
+.service-compass p{font-family:var(--serif);font-size:1.8rem;line-height:1.2;color:#f3f2e5;margin:0 0 12px;letter-spacing:-.035em}
+.service-compass>span:last-child{font-size:.875rem;line-height:1.6;color:#c7d4c3;margin-top:18px}
+.service-jump{margin:0;padding:24px 7%;display:flex;flex-wrap:wrap;gap:14px 32px;border-bottom:1px solid var(--line);font-size:1rem}
+.service-jump a{border-bottom:1px solid transparent}.service-jump a:hover{border-color:currentColor}
+.service-directory,.service-group{scroll-margin-top:120px}.service-group{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(0,1.5fr);gap:7%;border-bottom:1px solid var(--line)}
+.service-group-heading h2{font-size:clamp(2.3rem,3.3vw,3.5rem)}.service-group-heading p{font-size:1rem;max-width:390px}
+.service-catalogue-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:32px}
+.catalogue-card{border-top:2px solid var(--ink);padding-top:24px;display:flex;flex-direction:column;align-items:flex-start;min-width:0}
+.catalogue-card h3{font:1.9rem/1.14 var(--serif);letter-spacing:-.035em}.catalogue-card p{font-size:1rem;line-height:1.65;margin-bottom:20px}
+.card-action{font-size:.875rem;border-bottom:1px solid var(--line);padding-bottom:3px;margin-top:auto}
+.catalogue-card:hover .card-action{border-color:var(--ink)}.catalogue-card:hover h3{color:#57745a}.dark .catalogue-card:hover h3{color:#c7dfaa}
+.service-start,.service-next{display:grid;grid-template-columns:1.1fr 1fr;gap:9%}.service-start{background:var(--panel)}.service-start h3,.service-next h3{font-size:1.5rem}
+.service-start .text-link,.service-return .text-link{font-size:1rem}.service-return{margin-top:24px}.service-next{border-top:1px solid var(--line)}
+.service-next h2{font-size:clamp(2.5rem,4vw,4.5rem)}.service-next p{font-size:1rem}
+.service-overview-link{padding-top:30px}.service-overview-link .text-link{font-size:1rem}
+.service-row{grid-template-columns:1fr}.service-row p{grid-column:1;font-size:1rem}.service-row h3{font-size:2.25rem}
+.mega>div{max-height:calc(100dvh - 110px);overflow-y:auto;width:min(700px,90vw);font-size:.875rem;gap:14px 28px}.mega>div>a:first-child{grid-column:1/-1;font-weight:bold;border-bottom:1px solid var(--line);padding-bottom:12px}
+@media(max-width:1000px){.services-intro{grid-template-columns:minmax(0,1.6fr) minmax(210px,.8fr);gap:5%}.service-group{grid-template-columns:1fr;gap:30px}.service-group-heading{max-width:700px}.service-group-heading p{max-width:600px}.service-compass{padding:30px 24px}.service-compass p{font-size:1.6rem}}
+@media(max-width:760px){.services-intro{grid-template-columns:1fr;gap:36px;padding-block:44px}.services-intro h1{font-size:clamp(2.8rem,10vw,4.2rem)}.services-intro .lead{font-size:1.125rem}.service-compass{border-radius:0;min-height:0;padding:28px}.service-compass .eyebrow{margin-top:0}.service-jump{position:static;display:flex!important;flex-direction:row;gap:14px 22px;padding:24px 6%;font-size:.875rem}.service-group{padding-block:48px;scroll-margin-top:90px}.service-catalogue-grid{gap:28px}.service-start,.service-next{grid-template-columns:1fr;gap:32px}.catalogue-card h3{font-size:1.65rem}.services-contact h2{max-width:100%;font-size:3rem}.services-contact:after{display:none}.services-contact .button{max-width:100%;overflow-wrap:anywhere}.mega>div{width:100%;max-height:52dvh}.service-row h3{font-size:1.9rem}}
+@media(max-width:500px){.service-catalogue-grid{grid-template-columns:1fr}.catalogue-card h3{font-size:1.9rem}.services-intro .actions{align-items:flex-start;flex-direction:column;gap:22px}}
